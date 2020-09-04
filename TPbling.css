@@ -1,5 +1,5 @@
 #text{
- font-size: 3em;
+ font-size: 2.5em;
  font-weight: bold;
  color: white;
  margin: 1em;
@@ -45,9 +45,7 @@ body {
 
 #quote-box{
    
-   background:
-url(https://lh3.googleusercontent.com/UDc65-YhR5sGxLetb0y7SNuZZCn7F4qBgrv19dnB-nbwWVrbxtE5GfTYwb2k6RVCOz5luLKtyWqagcbnDez2kzEKl5G6-6feS76ooxh3iJFnbktCxlvAMK1PIUb5BdoEi4_HB43Mf-tYjakX3ezIGUP5GKVuy4fydwVKGuHcfZElR-AR-fyk_t2hTupt_x4mzSl-aK0A7Sl5hnkKPLK7r3D7F1IB7b3xym8rVZn9MT0SDAl2NI350iTxewiqp_qmziWALYmU0rQQYJ93q_U7xn7GbNn0ST1MekAWElLbDiYTqjZSaxQ3G8T6-1mnM_CY_A617bRSSZUvXBdSf_74OpCaHWLGJfolobvh_YMTJWr0O_hObdHuV6YmeLd0OPbE6J-gJ_NuIXzB-4LjA4nioUnByMoRX7zs55vWosqJrFyXFDn1Zr-xbYK3_PWYlUBmt0LC9wUm3w_PPxvheM4yy3V7S9MuKEh--tdSCuZ2tG-d98ROqefR6Hc3-EzJ5a7MIklPOVrcvNC6hs9weQFessnfe_JoNXjzk2nKappz-0MUDKv8nNtf5NzyZ2FHOyFXXedKM8KELszrag5z8DCWEgPS4aGjP6FWntWzu7mLPIJ96ZA9nYO2wG7YDCNK_pIfWfFIBb5VCEkQQabx8q9F5HuSAX2pQHWTpiD_-KR2uslemZzCIbbj5k1UH06Dxw=w972-h730-no?authuser=0) no-repeat center scroll;
-  background-size: contain;
+
   padding: 3.5em;
   animation-name: bloom;
   animation-duration: 5s;
@@ -87,9 +85,9 @@ url(https://lh3.googleusercontent.com/UDc65-YhR5sGxLetb0y7SNuZZCn7F4qBgrv19dnB-n
 
 #new-quote {
     color: white;
-    font-size: 1em;
+    font-size: 1.3em;
     margin-right: 20em;
-    padding: 0.4em;
+    
     border-radius: 20%;
     background-color: #176138;
     
@@ -97,8 +95,8 @@ url(https://lh3.googleusercontent.com/UDc65-YhR5sGxLetb0y7SNuZZCn7F4qBgrv19dnB-n
   
   #tweet-quote{
     color: white;
-    font-size: 1em;
-    padding: .4em;
+    font-size: 1.3em;
+    
     background-color: #387da8;
     border-radius: 20%;
       
@@ -107,4 +105,11 @@ url(https://lh3.googleusercontent.com/UDc65-YhR5sGxLetb0y7SNuZZCn7F4qBgrv19dnB-n
   .navbar{
     height: 8em;
     opacity: 0.9;
+  }
+
+  .n2{
+    height: 3em;
+    opacity: 0.8;
+    color: white;
+    
   }
