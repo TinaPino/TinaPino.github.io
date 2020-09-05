@@ -1,2 +1,1 @@
-
-<a href="https://tinapino.github.io">My home page</a>
+<a href="https://tinapino.github.io" target="_blank">My home page</a>
