@@ -172,6 +172,9 @@ let quotopia = [ {
   }, {
   quote: "Sometimes you need to scorch everything to the ground, and start over. After the burning the soil is richer, and new things can grow. People are like that, too.",
   author: "~~~Celeste Ng, Little Fires Everywhere"
+  }, {
+  quote: "Feelings come and go like clouds in a windy sky. Conscious breathing is my anchor.",
+  author: "~~~Thich Nhat Hanh"
   } ];
   
   
