@@ -1,14 +1,12 @@
 #text{
- font-size: 2.5em;
- font-weight: bold;
- color: white;
- margin: 1em;
+ font-size: 1.8em; font-weight: bold;
+ color: white; margin: 1em;
  }
 
 #author{
   color: white;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 3em;
 }
 
@@ -23,68 +21,15 @@
 
 body {
     
-    background: linear-gradient(-5deg, black, black, black, silver, black, black,  silver, black, black, silver, black, silver, black);
-    background-size: 400% 200%;
-	animation: grad 15s ease infinite;
-}
-
-@keyframes grad {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-#quote-box{
-   
-
-  padding: 3.5em;
-  animation-name: bloom;
-  animation-duration: 5s;
-  animation-iteration-count: 1;  
+  background: url(https://lh3.googleusercontent.com/614AOj9yvtPKOmb1nlgF9nMrvgrbYT-ps5Q9MJ0kDYIPLub8nUfWqFExUPIw27WTZAI2AaORmq5v1pbqSupHCpXpktfWVsKC44OQTcE3cBaiLgHAMagpmimheR9DoO1t3_TaQefmRuw=w2400)
 }
 
 
-@keyframes bloom {
-  0%{
-    font-size: 0.2em;
-  }
-   5%{
-    font-size: 0.3em;
-  }
-   10%{
-    font-size: 0.4m;
-  }
-   15%{
-    font-size: 0.5em;
-  }
-   20%{
-    font-size: 0.6em;
-  }
-   25%{
-    font-size: 0.7em;
-  }
-  30%{
-    font-size: 0.8em;
-     }
-  35%{
-    font-size: 0.9em;
-  }
-  40%{
-       font-size: 1em;
-     }
-}
 
 #new-quote {
     color: white;
     font-size: 1.3em;
     margin-right: 20em;
-    
     border-radius: 20%;
     background-color: #176138;
     
@@ -92,8 +37,7 @@ body {
   
   #tweet-quote{
     color: white;
-    font-size: 1.3em;
-    
+    font-size: 1.3em;  
     background-color: #387da8;
     border-radius: 20%;
       
@@ -110,3 +54,8 @@ body {
     font-weight: bold;
     
   }
+
+  can also add: 
+.figure{
+  border: 3px ridge rgb(46, 10, 250, 0.6);
+}
