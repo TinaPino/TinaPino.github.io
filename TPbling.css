@@ -1,16 +1,69 @@
+/*FOR MOBILE*/
 h1{
-  font-size: 3em;  
+  font-size: 2.5em;
 }
 
 .intro{
   font-family: 'Quicksand', sans-serif;
-  font-size: 2.5em;  
+  font-size: 1em;
+  color: white;
+}
+
+
+div.container {
+  display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  grid-gap: .7em;
+ font-size: 1em;
+font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.inside{
+  background: url(https://lh3.googleusercontent.com/YNxe9ygUEwDAGnRXwBcujmOUTkhpWTVxHk0s4B4pPMw6gbUO7A_21lYRE6lqAX68tgmshnCQvLi2-VnOdmFIBA9Zg50fZF_WrK3kk2OTNyCqqrt0CLFMv4XClerQCKrQJq5l9BlfHdw=w2400);
+border-radius: 50%;
+padding: .3em;
+}
+
+
+
+.b{
+    background:
+url(https://lh3.googleusercontent.com/k2ykNgtXc6nzYQED1GERsXj6vYgZN20rDRXOOpOyDN0mhPFINuattEn2GUoF6beh7eSfoVmBJeo-Xx6ILrJPwGy0jjt_XZKeb9PxuI-_t7jtcVHDTXbsmvgQddootHlIrdvTCiKccDY=w2400) no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 50%;
+  padding: 1.5em;
+  color: white;
+  border: .2em dotted blue;
+}
+.c{
+    background:
+url(https://lh3.googleusercontent.com/k2ykNgtXc6nzYQED1GERsXj6vYgZN20rDRXOOpOyDN0mhPFINuattEn2GUoF6beh7eSfoVmBJeo-Xx6ILrJPwGy0jjt_XZKeb9PxuI-_t7jtcVHDTXbsmvgQddootHlIrdvTCiKccDY=w2400) no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 50%;
+  padding: 1.5em;
+  color: white;
+    border: .2em dotted blue;
+}
+.d{
+    background:
+url(https://lh3.googleusercontent.com/k2ykNgtXc6nzYQED1GERsXj6vYgZN20rDRXOOpOyDN0mhPFINuattEn2GUoF6beh7eSfoVmBJeo-Xx6ILrJPwGy0jjt_XZKeb9PxuI-_t7jtcVHDTXbsmvgQddootHlIrdvTCiKccDY=w2400) no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 50%;
+  padding: 1.5em;
+  color: white;
+    border: .2em dotted blue;
+}
+
+a:visited {
   color: white;
 }
 
 #text{
- font-size: 1.8em; font-weight: bold;
- color: white; margin: 1em;
+ font-size: 1.8em;
+ font-weight: bold;
+ color: white;
+ 
  }
 
 #author{
@@ -20,26 +73,36 @@ h1{
   margin-bottom: 3em;
 }
 
-    
+.inspire{
+   
+  border: .5em double #5842fc;
+  padding: .5em .5em 3em .5em;
+   background: url(https://lh3.googleusercontent.com/XjuDmOmHhPfIga1E56st9EiVzqjmgA4qpul6q2jfzN3K0-7cmlQYZxzMCPqSN0TMLNzeNgGoNl6PYqzN70trWuNFQYOVU3Lh5rOzpj6AQsdh3sAPGc8bEqRQp7h2GERjFiW-_VWFHm0=w2400)
+ }
+
+   
 .qmark{
-    margin: 3em;
+   margin: 1em;
 }
 
 .font{
- font-family: 'Chilanka', cursive;
+ font-family: 'Cairo', sans-serif;
 }
 
 body {
     
-  background: url(https://lh3.googleusercontent.com/614AOj9yvtPKOmb1nlgF9nMrvgrbYT-ps5Q9MJ0kDYIPLub8nUfWqFExUPIw27WTZAI2AaORmq5v1pbqSupHCpXpktfWVsKC44OQTcE3cBaiLgHAMagpmimheR9DoO1t3_TaQefmRuw=w2400)
+    background: url(https://lh3.googleusercontent.com/614AOj9yvtPKOmb1nlgF9nMrvgrbYT-ps5Q9MJ0kDYIPLub8nUfWqFExUPIw27WTZAI2AaORmq5v1pbqSupHCpXpktfWVsKC44OQTcE3cBaiLgHAMagpmimheR9DoO1t3_TaQefmRuw=w2400)
+  
 }
+
+
 
 
 
 #new-quote {
     color: white;
     font-size: 1.3em;
-    margin-right: 20em;
+     
     border-radius: 20%;
     background-color: #176138;
     
@@ -47,19 +110,167 @@ body {
   
   #tweet-quote{
     color: white;
-    font-size: 1.3em;  
+    font-size: 1.3em;
     background-color: #387da8;
     border-radius: 20%;
       
   }
 
-  .navbar{
-    opacity: 0.7;
-    color: white;
-  }
-
 
 .figure{
+
   padding: 0em 0em 3em 0em;
 }
 
+#menu{
+  color: white;
+  padding: 0em 0em 4em 0em;
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
+/*MEDIA QUERIES BIG SCREEN*/
+
+
+@media only screen and (min-width: 768px){
+ 
+  h1{
+  font-size: 2.5em;
+}
+
+.intro{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+  color: white;
+}
+
+
+div.container {
+  display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  grid-gap: .7em;
+ font-size: 1.8em;
+font-family: 'Encode Sans Condensed', sans-serif;
+  padding: 3em 0em 4em 0em;
+}
+
+.inside{
+  background: url(https://lh3.googleusercontent.com/YNxe9ygUEwDAGnRXwBcujmOUTkhpWTVxHk0s4B4pPMw6gbUO7A_21lYRE6lqAX68tgmshnCQvLi2-VnOdmFIBA9Zg50fZF_WrK3kk2OTNyCqqrt0CLFMv4XClerQCKrQJq5l9BlfHdw=w2400);
+border-radius: 50%;
+padding: .7em;
+  }
+
+
+.b{
+    background:
+url(https://lh3.googleusercontent.com/k2ykNgtXc6nzYQED1GERsXj6vYgZN20rDRXOOpOyDN0mhPFINuattEn2GUoF6beh7eSfoVmBJeo-Xx6ILrJPwGy0jjt_XZKeb9PxuI-_t7jtcVHDTXbsmvgQddootHlIrdvTCiKccDY=w2400) no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 50%;
+  padding: 1.5em;
+  color: white;
+  border: .2em dotted blue;
+}
+.c{
+    background:
+url(https://lh3.googleusercontent.com/k2ykNgtXc6nzYQED1GERsXj6vYgZN20rDRXOOpOyDN0mhPFINuattEn2GUoF6beh7eSfoVmBJeo-Xx6ILrJPwGy0jjt_XZKeb9PxuI-_t7jtcVHDTXbsmvgQddootHlIrdvTCiKccDY=w2400) no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 50%;
+  padding: 1.5em;
+  color: white;
+    border: .2em dotted blue;
+}
+.d{
+    background:
+url(https://lh3.googleusercontent.com/k2ykNgtXc6nzYQED1GERsXj6vYgZN20rDRXOOpOyDN0mhPFINuattEn2GUoF6beh7eSfoVmBJeo-Xx6ILrJPwGy0jjt_XZKeb9PxuI-_t7jtcVHDTXbsmvgQddootHlIrdvTCiKccDY=w2400) no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 50%;
+  padding: 1.5em;
+  color: white;
+    border: .2em dotted blue;
+}
+
+a:visited {
+  color: white;
+}
+
+#text{
+ font-size: 2.1em;
+ font-weight: bold;
+ color: white;
+ margin: 1em;
+ }
+
+#author{
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 3em;
+}
+
+.inspire{
+  margin: 5em;
+  border: .5em double #5842fc;
+  padding: .5em .5em 3em .5em;
+   background: url(https://lh3.googleusercontent.com/XjuDmOmHhPfIga1E56st9EiVzqjmgA4qpul6q2jfzN3K0-7cmlQYZxzMCPqSN0TMLNzeNgGoNl6PYqzN70trWuNFQYOVU3Lh5rOzpj6AQsdh3sAPGc8bEqRQp7h2GERjFiW-_VWFHm0=w2400)
+ }
+
+   
+.qmark{
+   margin: 1em;
+}
+
+.font{
+ font-family: 'Cairo', sans-serif;
+}
+
+body {
+    
+    background: url(https://lh3.googleusercontent.com/614AOj9yvtPKOmb1nlgF9nMrvgrbYT-ps5Q9MJ0kDYIPLub8nUfWqFExUPIw27WTZAI2AaORmq5v1pbqSupHCpXpktfWVsKC44OQTcE3cBaiLgHAMagpmimheR9DoO1t3_TaQefmRuw=w2400)
+  
+}
+
+#quote-box{
+   
+  padding: 3.5em;
+   
+}
+
+
+
+#new-quote {
+    color: white;
+    font-size: 1.3em;
+    margin-right: 20em; 
+    border-radius: 20%;
+    background-color: #176138;
+    
+  }
+  
+  #tweet-quote{
+    color: white;
+    font-size: 1.3em;
+    background-color: #387da8;
+    border-radius: 20%;
+      
+  }
+
+
+
+.figure{
+
+  padding: 0em 0em 3em 0em;
+}
+
+#menu{
+  color: white;
+  padding: 0em 0em 4em 0em;
+  font-size: 1.5em;
+}
+  
+}
