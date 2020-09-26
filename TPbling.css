@@ -1,11 +1,11 @@
 /*FOR MOBILE*/
 h1{
-  font-size: 2.5em;
+  font-size: 2.6em;
 }
 
 .intro{
   font-family: 'Quicksand', sans-serif;
-  font-size: 1em;
+  font-size: 1.3em;
   color: white;
 }
 
@@ -74,7 +74,7 @@ a:visited {
 }
 
 .inspire{
-   
+  margin: 1em; 
   border: .5em double #5842fc;
   padding: .5em .5em 3em .5em;
    background: url(https://lh3.googleusercontent.com/XjuDmOmHhPfIga1E56st9EiVzqjmgA4qpul6q2jfzN3K0-7cmlQYZxzMCPqSN0TMLNzeNgGoNl6PYqzN70trWuNFQYOVU3Lh5rOzpj6AQsdh3sAPGc8bEqRQp7h2GERjFiW-_VWFHm0=w2400)
