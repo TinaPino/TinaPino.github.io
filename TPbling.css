@@ -56,7 +56,7 @@ url(https://lh3.googleusercontent.com/k2ykNgtXc6nzYQED1GERsXj6vYgZN20rDRXOOpOyDN
 }
 
 a:visited {
-  color: white;
+  color:#f8ccff
 }
 
 #text{
@@ -124,10 +124,21 @@ body {
 
 #menu{
   color: white;
+  background-color:#140447;
   padding: 0em 0em 4em 0em;
   font-size: 1.5em;
+  
 }
 
+.elegant{
+  font-family: 'Italianno', cursive;
+  font-size: 2em;
+}
+
+.ital{
+  font-family: 'Italianno', cursive;
+  font-size: 4em;
+}
 
 
 
@@ -196,7 +207,7 @@ url(https://lh3.googleusercontent.com/k2ykNgtXc6nzYQED1GERsXj6vYgZN20rDRXOOpOyDN
 }
 
 a:visited {
-  color: white;
+  color:#f8ccff
 }
 
 #text{
@@ -269,8 +280,25 @@ body {
 
 #menu{
   color: white;
+  background-color:#140447;
   padding: 0em 0em 4em 0em;
   font-size: 1.5em;
+  padding: 2em;
+  
+}
+
+.elegant{
+  font-family: 'Italianno', cursive;
+  font-size: 3em;
+}
+
+.ital{
+  font-family: 'Italianno', cursive;
+  font-size: 4em;
+}
+
+.footer{
+  padding: 2.5em;
 }
   
 }
