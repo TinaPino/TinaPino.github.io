@@ -305,5 +305,9 @@ body {
 .footer{
   padding: 2.5em;
 }
+
+.img-thumbnail{
+  max-height: 7em;
+}
   
 }
