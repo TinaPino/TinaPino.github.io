@@ -1,4 +1,9 @@
 /*FOR MOBILE*/
+
+.img-thumbnail{
+  max-height: 7em;
+}
+
 h1{
   font-size: 2.6em;
 }
